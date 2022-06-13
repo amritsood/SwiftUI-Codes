@@ -188,13 +188,11 @@
 		CE01CBE2284F46DE005038C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEE0F291285708DD00921E81 /* Category */,
 				CE09B766284F6F17002460D0 /* Landmarks */,
 				CE09B767284F6F23002460D0 /* Helpers */,
 				CEB7D76828509D5200B0D4CB /* Badge */,
 				CEB7D76D2850A66F00B0D4CB /* Hikes */,
-				CE2577B32852F5A1002899F5 /* CategoryHome.swift */,
-				CE2577B52852F732002899F5 /* CategoryRow.swift */,
-				CE2577B72853060B002899F5 /* CategoryItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,6 +248,16 @@
 				CEB7D7712850A66F00B0D4CB /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		CEE0F291285708DD00921E81 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CE2577B32852F5A1002899F5 /* CategoryHome.swift */,
+				CE2577B52852F732002899F5 /* CategoryRow.swift */,
+				CE2577B72853060B002899F5 /* CategoryItem.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
