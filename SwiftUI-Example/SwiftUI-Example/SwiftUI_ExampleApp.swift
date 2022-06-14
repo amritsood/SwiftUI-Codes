@@ -16,6 +16,8 @@ struct SwiftUI_ExampleApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(modelData)
+           // PageView(pages: ModelData().features.map { FeatureCard(landmark: $0) })
+            //  .aspectRatio(3 / 2, contentMode: .fit)
         }
     }
 }

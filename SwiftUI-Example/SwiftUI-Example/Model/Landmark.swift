@@ -41,4 +41,8 @@ struct Landmark: Hashable, Codable, Identifiable {
         var latitude: Double
         var longitude: Double
     }
+    
+    var featureImage: Image? {
+        isFeatured ? Image(imageName + "_feature") : nil
+    }
 }
